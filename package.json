@@ -20,5 +20,9 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "pug": "^2.0.0-rc.4"
-  }
+},
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/andyWynyard/nodeArticleDatabase.git"
+}
 }
