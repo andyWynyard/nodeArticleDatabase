@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    .jumbotron
+        h1 Knowledge Database 
+        p Take the opportuntiy to post an article, something near and dear to your heart. All you need is a title and the text.
+        h3 Mega brain dump of everyone including yours!
+    ul.list-group
+        each article, i in articles
+            li.list-group-item
+                a(href="/articles/"+article._id)= article.title
